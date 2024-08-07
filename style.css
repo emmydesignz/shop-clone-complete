@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+/*Global CSS */
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav{
+    margin-top: 4.1rem;
+    height: 30px;
+    padding: .5rem;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    gap: .5rem;
+}
+
+.logo img{
+    margin-left: 25rem;
+    width: 20px;
+}
+
+.logo-text a{
+    font-size: 0.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-text span{
+    margin-left: .5rem;
+    color: grey;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    padding: 1rem;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: white;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+}
+
+.shop-logo img{
+    width: 80px;
+}
+
+.menu img{
+    width: 30px;
+    margin-left: 55rem;
+}
+
+.menu img:hover{
+    cursor: pointer;
+}
+
+.btn{
+    margin-top: 0.3rem;
+}
+
+.btn button{
+    cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 3px;
+    border: 1px solid grey;
+    color: black;
+    background-color: white;
+}
+
+.btn button a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn button:hover{
+    background-color: black;
+}
+
+.search-logo{
+    padding-left: 25rem;
+    padding-top: 8rem;
+}
+
+.img-logo img{
+    width: 300px;
+    margin-left: 2.2rem;
+}
+
+.search-container{
+    margin-top: 2rem;
+}
+
+#Search{
+    border-radius: 7px;
+    outline: none;
+    border: 6px solid grey;
+    width: 40%;
+    padding: 1rem;
+    height: 45px;
+}
+
+.search-btn{
+    height: 45px;
+    width: 100px;
+    border: none;
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 0px 5px 3px grey;
+    cursor: pointer;
+}
+
+.info{
+    margin-top: 4rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.info h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.content{
+    padding: 1rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details{
+    padding: 2rem;
+    border-radius: 10px;
+    height: 150px;
+    background-color: rgb(232, 231, 231);
+    border: 1px solid rgb(181, 180, 180);
+    height: 400px;
+    width: 50%;
+}
+
+.details h1{
+    margin-bottom: 3rem;
+}
+
+.details p{
+    font-size: 1.1rem;
+}
+
+.details .learn{
+    margin-top: 10rem;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 2px solid rgb(181, 180, 180);
+    cursor: pointer;
+}
+
+.btn button a{
+    text-decoration: none;
+    color: black;
+}
+.details .learn a{
+    color: black;
+    text-decoration: none;
+}
+
+.details .learn:hover{
+    background-color: rgb(215, 213, 213);
+}
+
+.details-img img{
+    width: 500px;
+}
+
+.details-img-2 img{
+    width: 350px;
+}
+
+.get-container{
+    margin: 1rem;
+    padding: 1rem;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgb(232, 231, 231);
+    border: 1px solid rgb(181, 180, 180);
+}
+
+.get-container h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.get-container img{
+    margin-left: 28rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.foot-1{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.store img{
+    width: 80px;
+}
+
+.qr-store{
+    display: flex;
+}
+
+.store p{
+    width: 55%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.qr-store img{
+    width: 150px;
+    height: 150px;
+}
+
+.img-2{
+    margin-left: 1rem;
+    width: 100px;
+    margin-top: 1rem;
+}
+
+.img-2 img{
+    width: 140px;
+    height: 70px;
+}
+
+.img-2 .apple{
+    height: 40px;
+}
+
+.left-info{
+    gap: 4rem;
+    display: flex;
+}
+
+.info-1 ul li{
+    list-style: none;
+    margin-bottom: .5rem;
+
+}
+
+.info-1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.info-1 ul li a{
+    text-decoration: none;
+    color: rgb(132, 130, 130);
+    ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info-1 ul li a:hover{
+    color: rgb(78, 76, 76);
+}
+
+.footer{
+    height: 80px;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-1 p{
+    color: rgb(132, 130, 130);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+}
+
+.side-1 p span{
+    font-style: italic;
+    font-weight: 800;
+}
+
+.side-2 p{
+    color: rgb(132, 130, 130);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px){
+    
+    
+    nav{
+        display: flex;
+        gap: .5rem;
+    }
+    
+    .logo img{
+        margin-left: 3rem;
+        width: 20px;
+    }
+            
+    .nav-bar{
+        padding: 1rem;
+        border: 1px solid rgb(202, 202, 202);
+        background-color: white;
+        height: 70px;
+    }
+    
+    .nav-2{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 0.3rem;
+    }
+    
+    .shop-logo img{
+        width: 50px;
+    }
+    
+    .menu img{
+        margin-top: 0.4rem;
+        width: 20px;
+        margin-right: 1rem;
+        margin-left: 10rem;
+    }
+    
+
+    .search-logo{
+        padding-left: 5rem;
+        padding-top: 4rem;
+    }
+    
+    .img-logo img{
+        width: 150px;
+        margin-left: 2.2rem;
+    }
+    
+    .search-container{
+        margin-top: 2rem;
+    }
+    
+    #Search{
+        border-radius: 4px;
+        outline: none;
+        border: 3px solid grey;
+        width: 50%;
+        padding: 1rem;
+        height: 35px;
+    }
+    
+    .search-btn{
+        height: 37px;
+        width: 100px;
+        border-radius: 7px;
+        color: white;
+        box-shadow: 0px 5px 3px grey;
+        cursor: pointer;
+    }
+        
+    .info h1{
+        font-size: 2rem;
+    }
+    
+    .content{
+        padding: 1rem;
+        margin-top: 4rem;
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .details{
+        height: 370px;
+        width: 100%;
+    }
+
+    .details .learn{
+        margin-top: 4rem;
+    }
+            
+    .details-img img{
+        margin-top: 2rem;
+        width: 300px;
+        margin-left: 1rem;
+    }
+    
+    .details-img-2 img{
+        margin-top: 2rem;
+        width: 300px;
+        margin-left: 1rem;
+    }
+    
+    .get-container{
+        padding-top: 2rem;
+        height: 300px;
+    }
+    
+    .get-container h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .get-container img{
+        margin-left: 7rem;
+        width: 100px;
+        border-radius: 10px;
+    }
+    
+    .foot-1{
+        display: block;
+        padding: 1rem;
+    }
+    
+    .store img{
+        width: 80px;
+    }
+        
+    .qr-store img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .img-2{
+        margin-left: 1rem;
+        width: 100px;
+    }
+    
+    .img-2 img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .left-info{
+        margin-top: 2rem;
+        gap: 3rem;
+        display: flex;
+    }
+    
+    .info-1 ul li{
+        list-style: none;
+        margin-bottom: .3rem;
+    
+    }
+ 
+}
